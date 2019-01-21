@@ -24,7 +24,7 @@ def user_input(products):
 	return products
 
 #  印出所有購買紀錄
-def print_products(products):
+def print_product(products):
 	for p in products:
 		print(p[0], '的價格是', p[1])
 
